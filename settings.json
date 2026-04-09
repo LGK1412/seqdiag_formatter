@@ -1,0 +1,42 @@
+{
+  "[seqdiag]": {
+    "editor.defaultFormatter": "kien.my-seqdiag-formatter",
+    "editor.formatOnSave": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.control.seqdiag",
+        "settings": {
+          "foreground": "#1E90FF",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.type.seqdiag",
+        "settings": {
+          "foreground": "#00CED1"
+        }
+      },
+      {
+        "scope": "entity.name.class.seqdiag",
+        "settings": {
+          "foreground": "#66CCFF"
+        }
+      },
+      {
+        "scope": "string.unquoted.seqdiag",
+        "settings": {
+          "foreground": "#FFFFFF"
+        }
+      },
+      {
+        "scope": "comment.line.seqdiag",
+        "settings": {
+          "foreground": "#6A9955",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  }
+}

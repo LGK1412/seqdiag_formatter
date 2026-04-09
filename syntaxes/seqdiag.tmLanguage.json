@@ -1,0 +1,25 @@
+{
+    "scopeName": "source.seqdiag",
+    "patterns": [
+        {
+            "name": "keyword.control.seqdiag",
+            "match": "\\b(alt|opt|loop|par|group|else|end|ref|note|box|activate|deactivate)\\b"
+        },
+        {
+            "name": "keyword.type.seqdiag",
+            "match": "\\b(control|service|entity|boundary|database|actor)\\b"
+        },
+        {
+            "name": "entity.name.class.seqdiag",
+            "match": "\\b[A-Z][A-Za-z0-9]*(Controller|Service|Model|Repository)\\b"
+        },
+        {
+            "name": "string.unquoted.seqdiag",
+            "match": ":(.*)$"
+        },
+        {
+            "name": "comment.line.seqdiag",
+            "match": "(#|//).*"
+        }
+    ]
+}
